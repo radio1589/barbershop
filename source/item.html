@@ -9,11 +9,8 @@
 <body>
      <!-- Header -->
      <header class="page-header">
-        <h1 class="visually-hidden">
-            Барбершоп - «Бородинский»
-        </h1>
-        <img src="img/index-logo.svg" alt="" class="page-header__logo logo"
-        width="500" height="500">
+        <img src="img/logo.svg" alt="" class="page-header__logo logo"
+        width="300" height="200">
 
         <nav class="navigation">
             <ul class="navigation__list user-navigation">
@@ -54,158 +51,110 @@
     </header>
 
     <!-- Main -->
-    <main class="page-main">
+    <main class="page-main inner__page">
 
-        <!-- Features -->
-        <section class="features">
-          <h2 class="visually-hidden">Наши преимущества</h2>
-          <div class="features__item">
-              <h3 class="features__item-title">
-                Быстро
-              </h3>
-              <p class="features__item-text">
-                Мы делаем свою работу быстро! Два
-                часа пролетят незаметно и вы - счастливый
-                обладатель стильной стрижки-минутки!
-              </p>
-          </div>
-          <div class="features__item">
-                <h3 class="features__item-title">
-                  Круто
-                </h3>
-                <p class="features__item-text">
-                  Забудьте, как вы стриглись раньше. 
-                  Мы сделаем из вас звезду футбола или кино! 
-                  Во всяком случае внешне.
-                </p>
-            </div>
-            <div class="features__item">
-                    <h3 class="features__item-title">
-                      Дорого
-                    </h3>
-                    <p class="features__item-text">
-                      Наши мастера - профессионалы своего дела
-                      и не могут стоить дешево, к тому же, разве
-                      цена не дает определеный статус?
-                    </p>
-                </div>
+        <!-- Goods Item -->
+        <section class="goods__item">
+         <h2 class="title goods__item-title">
+            Набор для путешествий «Baxter of california»
+         </h2>
+         
+         <!-- Breedcrumbs -->
+         <ul class="breedcrumbs__list">
+             <li class="breedcrumbs__item">
+                 <a class="breedcrumbs__item-link" href="#">
+                     Главная
+                 </a>
+            </li>
+             <li class="breedcrumbs__item">
+                 <a href="#">
+                     Магазин
+                 </a>
+            </li>
+             <li class="breedcrumbs__item">
+                 <a class="breedcrumbs__item-link" href="#">
+                     Средства для ухода
+                 </a>
+            </li>
+             <li class="breedcrumbs__item">
+                 <a class="breedcrumbs__item-link--active">
+                    Набор для путешествий «Baxter of california»
+                 </a>
+            </li>
+         </ul>
         </section>
 
+        <!-- Good  -->
         <section class="holder">
-
-            <!-- News -->
-            <div class="news">
-                <h2 class="title news__title">
-                  Новости
-                </h2>
-                <ul class="news__list">
-                    <li class="news__list-item">
-                        <p class="news__text">
-                          Нам наконец завезли ягермайстер! Теперь
-                          вы можете пропустить стаканчик во время
-                          стрижки
-                        </p>
-                        <time class="news__date">
-                          11 января
-                        </time>
-                    </li>
-                    <li class="news__list-item">
-                            <p class="news__text">
-                              В нашей команде пополнение, Борис «Бритва»
-                              Стригунец, обладатель множества титулов и
-                              наград поплнил наши стройные ряды
-                            </p>
-                            <time class="news__date">
-                              18 января
-                            </time>
+            <div class="good__gallery">
+                <figure class="good__gallery-photo">
+                    <img src="img/good-photo1.jpg" alt="">
+                </figure>
+                <ul class="good__gallery-thumbs">
+                        <li class="good__gallery-thumbs-item">
+                            <img src="img/good-photo-small1.jpg" alt="">
                         </li>
-                </ul>
-                <a href="#" class="btn news__btn">
-                    Все новости
-                </a>
+                        <li class="good__gallery-thumbs-item">
+                            <img src="img/good-photo-small2.jpg" alt="">
+                        </li>
+                        <li class="good__gallery-thumbs-item">
+                            <img src="img/good-photo-small3.jpg" alt="">
+                        </li>
+                    </ul>
             </div>
-            
-            <!-- Gallery -->
-            <div class="gallery">
-                <h2 class="title gallery__title">
-                    Фотогалерея
-                </h2>
-                <div class="gallery__wrapper">
-                    <img src="img/gallery-photo1.jpg" alt="" class="gallery__img">
-                    <img src="img/gallery-photo2.jpg" alt="" class="gallery__img">
-                    <img src="img/gallery-photo3.jpg" alt="" class="gallery__img">
+
+            <div class="good-description">
+                <div class="good-description__meta">
+                    <span class="good-description__aviable">
+                        Есть в наличии
+                    </span>
+                    <span class="good-description__article">
+                        Артикул: Dexter-ae
+                    </span>
                 </div>
-                <div class="gallery__btns">
-                    <a href="" class="btn gallery__btn-prev">
-                        Назад
+                <p class="good-description__text">
+                    Travel Kit - необходимый аксуссуар во время любого
+                    путешествия, в аккуратной кожаной сумке находится все,
+                    что нужно для бритья и ухода за кожей во время рабочей
+                    поездки или отдыха: средство для умывания, увлажняющий крем,
+                    крем для бритья, крем после бритья, шампунь, набор также
+                    может стать отличным подарком.
+                </p>
+                <div class="good__buy">
+                    <span class="good__buy-price">
+                        2 900р
+                    </span>
+                    <a href="#" class="btn good__buy-btn">
+                        Купить
                     </a>
-                    <a href="" class="btn gallery__btn-next">
-                         Вперед   
-                     </a>
+                </div>
+
+                <div class="good__include">
+                    <h3 class="good__include-title">
+                        В набор входят:
+                    </h3>
+                    <ul class="good__include-list">
+                        <li class="good__include-list-item">
+                            Средство для умывания(50мл)
+                        </li>
+                        <li class="good__include-list-item">
+                            Увлажняющий крем(50мл)
+                        </li>
+                        <li class="good__include-list-item">
+                            Крем для бритья(50мл)
+                        </li>
+                        <li class="good__include-list-item">
+                            Крем для бритья, шампунь(50мл)
+                        </li>
+                        <li class="good__include-list-item">
+                            Удобная кожанная косметичка(50мл)
+                        </li>
+                    </ul>
                 </div>
             </div>
+           
         </section>
 
-        <section class="holder">
-
-            <!-- Contacts -->
-            <div class="contacts">
-                <h2 class="title contacts__title">
-                  Контактная информация
-                </h2>
-                <p class="contacts__addrr">
-                    Барбершоп - «Бородинский»<br>
-                    адрес: г. Санкт-Петербург, б. Конюшенная, д. 19/8<br>
-                    телефон: +7(495) 666-02-66
-                </p>
-                <p class="contacts__opening-hours">
-                    Время работы:<br>
-                    пн-пт: с 10:00 до 22:00<br>
-                    сб-вс: с 10:00 до 19:00
-                </p>
-                <div class="contacts__btns">
-                    <a href="" class="btn contacts__btn-get">
-                        Как проехать
-                    </a>
-                    <a href="" class="btn contacts__btn-feedback">
-                       Обратная связь
-                    </a>
-                </div>
-            </div>
-
-            <!-- Appointment -->
-            <div class="appointment">
-                <h2 class="title appointment__title">
-                    Записаться
-                </h2>
-                <p class="appointment__subtitle">
-                    Укажите желаемую дату и время и
-                    мы свяжемся с вами для подтверждения
-                    брони
-                </p>
-                <form action="#" class="appointment__form">
-                    <p class="appointment__form-item">
-                        <label for="date" class="appointment__form-label">Дата</label>
-                        <input type="date" class="appointment__form-input">
-                    </p>
-                    <p class="appointment__form-item">
-                        <label for="time" class="appointment__form-label">Время</label>
-                        <input type="time" class="appointment__form-input">
-                    </p>
-                    <p class="appointment__form-item">
-                        <label for="name" class="appointment__form-label">Ваше имя</label>
-                        <input type="text" class="appointment__form-input"
-                         placeholder="Борода">
-                    </p>
-                    <p class="appointment__form-item">
-                        <label for="phone" class="appointment__form-label">Телефон</label>
-                        <input type="text" class="appointment__form-input"
-                         placeholder="+7 123 456-78-90">
-                    </p>
-                    <button class="btn appointment__form-btn" type="submit">Отправить</button>
-                </form>
-            </div>
-        </section>
     </main>
 </body>
 </html>
